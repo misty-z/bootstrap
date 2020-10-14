@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+</head>
+<body>
+<div class="container">
+        <div class="jumbotron">
+          <h1>UNDIAN GRATIS SMARTPHONE</h1>      
+          <p>Dapatkan Smartphone kesukaan anda hanya dengan mengunduh file dibawah.</p>
+        </div>
+        <p>Dalam rangka HUT Kemerdakaan RI ke 76</p>      
+        <p>Ketua RT 02 akan membagikan Smartphone secara percuma </p>
+        <p>kepada siapa saja yang beruntungkepada siapa saja yang beruntung </p>     
+</div>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="sny.jpg" alt="Sony" width="1200" height="900">
+    </div>
+    <div class="carousel-item">
+      <img src="sms.jpg" alt="Samsung" width="1100" height="550">
+    </div>
+    <div class="carousel-item">
+      <img src="ip.jpg" alt="Iphone" width="1441" height="765">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+<div class="container">
+    <h2>Pilih Tempat Anda</h2>
+    <p>Harap memilih nama Jalan yang sesuai dengan tempat anda tinggal</p>
+    <p>Pilih jalan tempat anda tinggal terbaru</p>
+    <p>Tidak dianjurkan untuk alamat palsu, karena hadiah sangat mahal</p>                                          
+    <div class="dropdown">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        Pilihan Jalan
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Jalan Paus</a>
+        <a class="dropdown-item" href="#">Jalan Tongkol</a>
+        <a class="dropdown-item" href="#">Jalan Tengiri</a>
+        <a class="dropdown-item" href="#">Jalan Dori</a>
+        <a class="dropdown-item" href="#">Jalan Bulu Babi</a>
+      </div>
+    </div>
+</div>
+
+<div class="container">
+  <h2>Pilih salah satu merk HP</h2>
+  <p>Ini adalah daftar HP yang bisa dipilih</p>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary">Apple</button>
+    <button type="button" class="btn btn-primary">Samsung</button>
+    <button type="button" class="btn btn-primary">Sony</button>
+  </div>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary">Xiaomi</button>
+    <button type="button" class="btn btn-primary">Oppo</button>
+    <button type="button" class="btn btn-primary">Realme</button>
+  </div>
+</div>
+
+<div class="container">
+  <h2>Download File </h2>
+  <p>Harap diunduh untuk kelengkapan lainnya</p>
+                                        
+  <button class="btn btn-primary">
+    <span class="spinner-border spinner-border-sm"></span>
+    Loading..
+  </button>
+  
+</div>
+
+</body>
+</html>
